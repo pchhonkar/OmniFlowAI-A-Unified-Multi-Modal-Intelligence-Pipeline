@@ -1,0 +1,96 @@
+# === Core LangChain & Embeddings ===
+langchain
+langchain-openai
+langchain-community
+langchain-core
+langchain-chroma
+langchain-groq
+langchain-huggingface
+faiss-cpu
+sentence-transformers
+
+# === LLM & Hugging Face Models ===
+openai
+huggingface-hub
+transformers
+accelerate
+
+# === Web UI & API ===
+streamlit
+fastapi
+sse-starlette
+python-dotenv
+
+# === Document Loaders ===
+PyPDF2
+pymupdf
+unstructured
+unstructured[all]
+bs4
+wikipedia
+arxiv
+docx2txt
+markdown
+
+# === File Format Support ===
+python-docx
+python-pptx
+fpdf
+pillow
+text-unidecode
+
+# === Data Processing ===
+pandas
+numexpr
+duckdb
+SQLAlchemy
+
+# === Search & Retrieval ===
+duckduckgo-search
+requests
+validators==0.28.1
+
+# === Audio & Video Support ===
+pyttsx3
+moviepy
+pyaudio
+ffmpeg-python
+pytube
+youtube-transcript-api
+
+# === Development Utilities ===
+ipykernel
+notebook
+moviepy
+
+import os
+
+
+langchain
+langchain-openai
+langchain-community
+openai
+python-dotenv
+pandas
+Pillow
+python-docx
+python-pptx
+fpdf
+matplotlib
+requests
+duckduckgo-search
+pyttsx3
+moviepy
+TTS
+torch
+transformers
+scikit-learn
+sentence-transformers
+faiss-cpu
+
+# Save to file
+requirements_path = "/mnt/data/requirements.txt"
+with open(requirements_path, "w") as f:
+    f.write(requirements.strip())
+
+requirements_path
